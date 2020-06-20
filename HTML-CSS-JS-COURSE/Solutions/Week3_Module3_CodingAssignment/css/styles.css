@@ -38,7 +38,6 @@ body {
   }
 #nav-list a {
     color: black;
-    text-align: center;  /*toggle list center*/
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -71,3 +70,15 @@ body {
     padding: 10px 15px 5px;
 }
 /** END OF MAIN CONTENT **/
+
+
+/** footer **/
+#credits{
+    margin-top: 25px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#credits > a{
+    font-size: 0.8em;
+}
