@@ -1,0 +1,73 @@
+*{
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    color: black;
+    background-color: rgb(34, 30, 30);
+}
+
+/** HEADER **/
+#header-nav{
+    background-color: lightcyan;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar{
+    min-height: 80px;
+} 
+.navbar-brand {
+    min-height: 80px;
+}
+
+.navbar-toggle {
+    margin-top: 18px;
+}
+.navbar-brand h1{
+    margin-top: 0px;
+    font-size: 2em;
+    color: black
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list a:hover {
+    background: gray;
+  }
+#nav-list a {
+    color: black;
+    text-align: center;  /*toggle list center*/
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black; /*toggle color*/
+}
+/** END OF HEADER **/
+
+
+/** MAIN CONTENT **/
+#main-content-title{
+    margin-bottom: 25px;
+    color: white;
+}
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+.menu-item-tile > div {
+    margin-bottom: 25px;
+    background-color: gray;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#menu-item-title {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#menu-item-description{
+    padding: 10px 15px 5px;
+}
+/** END OF MAIN CONTENT **/
